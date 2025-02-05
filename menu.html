@@ -3,27 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bia's Catering Services</title>
+    <title>Bia's Kitchen Catering Services</title>
+
+
+    <style>
+
+
+        
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("./imagesss/background.jpg");
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(244, 244, 244);
+  color: rgb(51, 51, 51);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(233, 18, 18);
+  padding: 30px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 12;
+}
+
+
+.logo a {
+  font-size: 20px;
+  font-weight:500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: rgb(244, 244, 244);
+}
+
+
+@media (max-width: 760px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+
+.flex-container{
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  color: red;
+  padding: 1rem;
+
+}
+
+
+  .center-table{
+   width: 100%;
+   height: 50px;
+   justify-content: center;
+   
+    
+  }
+
+  .center-cell{
+    margin-top: 3rem;
+    vertical-align: middle;
+    justify-content: center;
+    
+  }
+
+  .align-items{
+    width: 300px;
+    height: auto;
+    margin: 2rem;
+  }
+
+
+ 
+
+ h1{
+  font-size: 40px;
+  color: whitesmoke;
+  font-weight: 400;
+  text-align: center;
+ }
+
+ h2{
+  color: white;
+  font-size: 30px;
+  font-weight: 300;
+  padding: 30px;
+ }
+
+ h3{
+  font-weight: 300;
+  color: white;
+
+
+ }
+
+ 
+
+    </style>
+
+
 </head>
 <body>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact</a>
-        <a href="events.html">Events</a>
 
-   </nav>
+
+
+    <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="menu">Bia's Kitchen Catering Services</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./events.html">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        <div class="flex=container">
+          <h1>On The Menu</h1>
+           
+          <table class="center-table">
+            <div class="center-cell">
+            <h2>1.Appetizer</h2>
+            <th><img src="./imagesss/appetizer1.jpg" height=100px class="align-items"><br><h3>Ensaladang Talong</h3></th>
+            <th><img src="./imagesss/appetizer2.jpg" height=100px class="align-items"><br><h3>Lumpiang Shanghai</h3></th><br>
+          </table>
+        </div>
+            
+
+            
+        <table class="center-table">
+          <div class="center-cell">
+          <h2>2.Main Dish</h2>
+          <th><img src="./imagesss/maindish1.jpg" height=100px class="align-items"><br><h3>Beef Kaldereta</h3></th>
+          <th><img src="./imagesss/maindish2.jpg" height=100px class="align-items"><br><h3>Special Pancit</h3></th>
+          <th><img src="./imagesss/maindish3.jpg" height=100px class="align-items"><br><h3>Sisig</h3></th>
+
+
+          </table>
+      </div>
+
+
+      <table class="center-table">
+        <div class="center-cell">
+        <h2>2.Main Dish</h2>
+        <th><img src="./imagesss/dessert1.jpg" height=100px class="align-items"><br><h3>Sapin-Sapin</h3></th>
+        <th><img src="./imagesss/dessert2.jpg" height=100px class="align-items"><br><h3>Halo-Halo</h3></th>
+
+
+        </table>
+    </div>
+        </div>
+
+       
+      
+
+
+    </body>
+    </html>
     
-  <h1 aligntext="center">On The Menu</h1>
-  <img src="images/chopped-salad-filled-fried-eggplant.jpg" height="150px">
-  <img src="images/fried-spring-rolls-cutting-board.jpg" height="150px">
-  <h4>APPETIZER</h4>
-  <img src="images/delicious-goulash-ready-dinner.jpg" height="150px">
-  <img src="images/delicious-goulash-stew-table.jpg" height="150px">
-  <h4>MAIN DISH</h4>
-  <img src="images/images.jpg" height="150px">
-  <img src="images/download (1).jpg" height="150px">
-  <h4>DESSERTS</h4>
 </body>
 </html>
