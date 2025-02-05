@@ -3,19 +3,176 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bia's Catering Services</title>
+    <title>Bia's Kitchen Catering Services</title>
+
+
+    <style>
+
+
+        
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("./imagesss/background.jpg");
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(244, 244, 244);
+  color: rgb(51, 51, 51);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 18, 18);
+  padding: 30px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 12;
+}
+
+
+.logo a {
+  font-size: 20px;
+  font-weight:500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: rgb(244, 244, 244);
+}
+
+
+@media (max-width: 760px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+
+
+  section{
+    text-align: center;
+    justify-content: center;
+    color: rgb(129, 19, 19);
+    margin-top: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    
+
+  }
+
+  .info{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+  }
+  
+  .info h1{
+    color: rgb(161, 8, 8);
+    padding: 3rem;
+    font-weight: 400;
+  }
+
+  .info p{
+    margin-top: 1.5rem; 
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    
+  }
+    </style>
+
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
 </head>
 <body>
-     <nav>
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="menu.html">Menu</a>
-         <a href="contact.html">Contact</a>
-         <a href="events.html">Events</a>
- 
-    </nav>
+
+
+
+    <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="about">Bia's Kitchen Catering Services</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./about.html">About </a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./events.html">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+
+        <section class="about">
+            <div class="info">
+                <h1>About of Bia's Kitchen Catering</h1>
+                 <p>This business started because of our passion for cooking delicious food because we come from the province of</p>
+                 <p>Pampanga. My inspiration for building a catering services business is my grandfather because he also loves to </p>
+                 <p>eat and we along well, but unfortunately he has passed away. Far beyond a mere business, this journey is personal </p>
+                 <p>to me. My grandfather was my biggest inspiration-his love for food gave birth to some of our best memories shared.</p>
+                 <p>Every single meal we prepare is imbued with love and dedication, inspired from my grandfather.</p>
+                 <p>Through our catering services, we hope to connect people, to create memories, and keep alive</p>
+                 <p>the tradition of sharing beautiful food with the ones that matter most.</p>
+
+
+            </div>
+        </section>
+
+       
     
-    <h1 align="center">ABOUT</h1>
-<p>This business started because of our passion for cooking delicious food because we come from the province of Pampanga. My inspiration for building a catering services business is my grandfather because he also loves to eat and we get along well, but unfortunately he has passed away.</p>
+    </body>
+    </html>
+    
 </body>
 </html>
