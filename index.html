@@ -4,19 +4,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bia's Kitchen Catering Services</title>
+
+
+    <style>
+
+
+        
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("./imagesss/background.jpg");
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(244, 244, 244);
+  color: rgb(51, 51, 51);
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 18, 18);
+  padding: 30px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 12;
+}
+
+
+.logo a {
+  font-size: 20px;
+  font-weight:500;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-links li {
+  margin-left: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  transition: color 0.5s;
+}
+
+.nav-links a:hover {
+  color: rgb(244, 244, 244);
+}
+
+
+@media (max-width: 760px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nav-links {
+    width: 100%;
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+}
+
+.home{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    padding: 40px 7% 0;
+    color: rgb(204, 25, 25);
+  }
+
+  .info{
+    max-width: 700px;
+    justify-content: center;
+  }
+
+  h1{
+    font-size: 47px;
+    font-weight: 600;
+    color: rgb(170, 6, 6);
+    line-height: 1.2;
+
+
+  }
+
+  h2{
+    font-size: 35px;
+    font-weight: 300;
+    color: rgb(199, 184, 184);
+    
+    
+  }
+
+  .info h4{
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  
+    </style>
+
 </head>
 <body>
-    <nav>
-         <a href="index.html">Home</a>
-         <a href="about.html">About</a>
-         <a href="menu.html">Menu</a>
-         <a href="contact.html">Contact</a>
-         <a href="events.html">Events</a>
+
+
+
+    <div class="container">
+        <nav class="navbar">
+          <div class="logo">
+            <a href="home">Bia's Kitchen Catering Services</a>
+          </div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a href="./events.html">Events</a></li>
+          </ul>
+        </nav>
+      </div>
+
+
+    <div class="home">
+      <div class="info">
+      <h1>Get Fresh Food In a Easy Way</h1>
+      <h2>Delicious food for Good Mood!</h2>
+        <h4>Order Now!</h4>
  
-    </nav>
+      </div>
+     </div>
     
-    <h1 aligntext="center">Bia's Kitchen Catering Services </h1>
-    <img src="images/download (7).jpg" height="500px">
-    <h3 aligntext="center">Delicious food for Gooooooood Mood</h5>
+    
 </body>
 </html>
